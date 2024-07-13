@@ -1,4 +1,3 @@
-`
 // https://docs.unity3d.com/Packages/com.unity.shadergraph@6.9/manual/Rotate-Node.html
 vec2 rotateRadians(vec2 UV, vec2 Center, float Rotation)
 {
@@ -36,4 +35,3 @@ vec2 rotateDegrees(vec2 UV, vec2 Center, float Rotation)
     UV += Center;
     return UV;
 }
-`
