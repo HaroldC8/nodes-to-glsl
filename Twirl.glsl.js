@@ -1,5 +1,4 @@
-export default /*glsl*/`
-
+`
 // https://docs.unity3d.com/Packages/com.unity.shadergraph@6.9/manual/Twirl-Node.html
 vec2 twirl(vec2 UV, vec2 Center, float Strength, vec2 Offset)
 {
@@ -9,4 +8,4 @@ vec2 twirl(vec2 UV, vec2 Center, float Strength, vec2 Offset)
     float y = sin(angle) * delta.x + cos(angle) * delta.y;
     return vec2(x + Center.x + Offset.x, y + Center.y + Offset.y);
 }
-`;
+`
